@@ -22,7 +22,7 @@ android {
         release {
             keyAlias 'AndroidKey'
             keyPassword '123456'
-            storeFile file("key/android.jks")
+            storeFile file("deploy/android.jks")
             storePassword '123456'
         }
     }
